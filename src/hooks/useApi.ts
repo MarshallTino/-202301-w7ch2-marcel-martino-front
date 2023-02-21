@@ -15,7 +15,7 @@ const useApi = () => {
         return;
       }
 
-      dispatch(loadRobotsActionCreator(robotsArray.Robots));
+      dispatch(loadRobotsActionCreator(robotsArray.robots));
     } catch (error) {
       return (error as Error).message;
     }
